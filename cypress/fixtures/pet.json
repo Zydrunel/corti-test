@@ -1,0 +1,75 @@
+{
+  "full": {
+    "category": {
+      "id": 1,
+      "name": "dogs"
+    },
+    "name": "Isidor",
+    "photoUrls": [],
+    "tags": [
+      {
+        "id": 1,
+        "name": "golden"
+      }
+    ],
+    "status": "available"
+  },
+  "noName": {
+    "category": {
+      "id": 1,
+      "name": "dogs"
+    },
+    "photoUrls": [],
+    "tags": [
+      {
+        "id": 1,
+        "name": "golden"
+      }
+    ],
+    "status": "available"
+  },
+  "noPhotoUrls": {
+    "category": {
+      "id": 1,
+      "name": "dogs"
+    },
+    "name": "Isidor",
+    "tags": [
+      {
+        "id": 1,
+        "name": "golden"
+      }
+    ],
+    "status": "available"
+  },
+  "incorrectStatus": {
+    "category": {
+      "id": 1,
+      "name": "dogs"
+    },
+    "name": "Isidor",
+    "photoUrls": [],
+    "tags": [
+      {
+        "id": 1,
+        "name": "golden"
+      }
+    ],
+    "status": "missing"
+  },
+  "wrongNameType": {
+    "category": {
+      "id": 1,
+      "name": "dogs"
+    },
+    "name": { "id": 9999 },
+    "photoUrls": [],
+    "tags": [
+      {
+        "id": 1,
+        "name": "golden"
+      }
+    ],
+    "status": "available"
+  }
+}
