@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Zydrunel <zydrune.lisauskaite@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "yarn cypress open"
+  },
+  "dependencies": {
+    "cypress": "^13.3.3"
+  }
 }
