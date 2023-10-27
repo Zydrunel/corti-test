@@ -64,6 +64,7 @@ describe("Test POST /pet endpoint", () => {
     cy.request({
       method: "POST",
       url: "pet",
+      failOnStatusCode: false,
       body: pet,
     }).then((response) => {
       expect(response.status).to.equal(500);
